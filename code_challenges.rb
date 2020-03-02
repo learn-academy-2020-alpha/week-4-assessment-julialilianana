@@ -2,6 +2,15 @@
 
 # --------------------1) Create a method that takes in an array and returns an array with only odd numbers sorted from least to greatest.
 
+def onlyOdd array
+    array.each do |value|
+        if typeof value.instance_of ? Fixnum   && value % 2 === 1 || value % 2 === -1
+            newArray << value
+            newArray.sort
+        end
+    end
+
+p onlyOdd(fullArr1)
 
 
 
