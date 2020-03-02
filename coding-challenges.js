@@ -76,6 +76,7 @@ console.log(minAndMax(nums2));
 // --------------------4) Create a function that takes in a string and returns a string with every other letter capitalized.
 
 const someCaps = (string) => {
+    let newString = ""
     let newArray = string.split("")
     for (let i = 0; i < newArray.length; i++)
         if (i % 2 === 1){
@@ -96,10 +97,16 @@ console.log(someCaps(testString2));
 
 // --------------------5) Create a function that takes in two arrays as arguments and returns one array with no duplicate values. STRETCH: Use the spread operator.
 
-
-
-
-
 var arr1 = [3, 7, 10, 5, 4, 3, 3]
 var arr2 = [7, 8, 2, 3, 1, 5, 4]
 // Expected output: [3, 7, 10, 5, 4, 8, 2, 1]
+
+
+
+const noDups = (array1, array2) => {
+    let combined = array1.concat(array2)
+    return combined.filter((value, index) => combined.indexOf(value) === index)
+}
+
+console.log(noDups(arr1,arr2))
+
