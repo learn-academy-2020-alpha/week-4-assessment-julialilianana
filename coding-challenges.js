@@ -74,22 +74,24 @@ console.log(minAndMax(nums2));
 
 
 // --------------------4) Create a function that takes in a string and returns a string with every other letter capitalized.
-
-const someCaps = (string) => {
-    let newString = ""
-    let newArray = string.split("")
-    for (let i = 0; i < newArray.length; i++)
-        if (i % 2 === 1){
-            newString = string.charAt(i).toUpperCase()
-        } 
-  return newString
-}
-
             
 var testString1 = "albatross"
 // Expected output: "aLbAtRoSs"
 var testString2 = "jabberwocky"
 // Expected output: "jAbBeRwOcKy"
+
+const someCaps = (string) => {
+    let newString = ""
+    for (let i = 0; i < string.length; i++)
+        if (i % 2 === 1){
+            newString += string.charAt(i).toUpperCase()
+        } else {
+            newString += string.charAt(i)
+        }
+  return newString
+}
+
+
 
 console.log(someCaps(testString1));
 console.log(someCaps(testString2));
