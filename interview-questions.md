@@ -4,38 +4,38 @@ Answer the following questions. First, without external resources. Challenge you
 
 1. What is an instance variable in Ruby? How is it different from other variables?
 
-  Your answer:
+  Your answer: an instance variable is initialized with an @ and used in a class.
 
-  Researched answer:
+  Researched answer: instance variables are part of object orientend programming. They store data. this is differenct from other variables is scope. other variebles ony have a scope of current contex, but an instance variable has a scope throughout an entire class. 
 
 
 
 2. What is a block in Ruby?
 
-  Your answer:
+  Your answer: I have no idea.
 
-  Researched answer:
+  Researched answer: a block is chuncks of code between a 'do' and 'end' statement.
 
 
 
 3. Ruby has an implicit return. What does that mean?
 
-  Your answer:
+  Your answer: you do not need to state return in a method. 
 
-  Researched answer:
+  Researched answer: if return isn't explicitly called within a method then Ruby will return the value of the last executed instruction.
 
 
 
 4. What is object-oriented programming? How is it different than functional programming?
 
-  Your answer:
+  Your answer: programming with objects as the foundation.
 
-  Researched answer:
+  Researched answer: computer programs are created with objects that hold the data and interect with each other.
 
 
 
 5. What is the difference between a class and an object?
 
-  Your answer:
+  Your answer: Classes hold objects
 
-  Researched answer:
+  Researched answer: The class defines the data and behavior of an object.
